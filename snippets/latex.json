@@ -501,17 +501,17 @@
 		"description": "Omega"
 	},
 	"(": {
-		"prefix": "@(",
+		"prefix": "@)",
 		"body": "\\left( ${1:${TM_SELECTED_TEXT}} \\right)",
 		"description": "left( ... right)"
 	},
 	"{": {
-		"prefix": "@{",
+		"prefix": "@}",
 		"body": "\\left\\{ ${1:${TM_SELECTED_TEXT}} \\right\\\\\\}",
 		"description": "left{ ... right}"
 	},
 	"[": {
-		"prefix": "@[",
+		"prefix": "@]",
 		"body": "\\left[ ${1:${TM_SELECTED_TEXT}} \\right]",
 		"description": "left[ ... right]"
 	},
@@ -554,5 +554,15 @@
 		"prefix": "SSP",
 		"body": "\\subparagraph{${1:${TM_SELECTED_TEXT}}}",
 		"description": "subparagraph"
+  },
+	"Low dots": {
+		"prefix": "...l",
+		"body": ["\\ldots"],
+		"description": "Low dots"
+	},
+	"Display Style": {
+		"prefix": "ds",
+		"body": ["\\displaystyle"],
+		"description": "Display Style Inline"
 	}
 }
